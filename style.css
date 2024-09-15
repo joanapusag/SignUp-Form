@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("enhypen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    margin: 80px;
+    max-width: 700px;
+    padding: 80px;
+}
+
+.web {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: white; 
+}
+
+.enhypen p {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li .link {
+    text-decoration: none;
+    font-weight: bold; 
+    color: black;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+
+.link:hover, .active {
+    border-bottom: 2px solid black;
+}
+
+.form {
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.signup-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    transition: .5s ease-in-out;
+}
+
+.top header {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0 10px 0; 
+}
+
+.subheader {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+.full-name {
+    display: flex;
+    gap: 15px; 
+    width: 100%;
+}
+
+.inputbox {
+    flex: 1; 
+    position: relative; 
+}
+
+.input-field {
+    font-size: 15px;
+    background: gray;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+}
+
+.input-field:hover, .input-field:focus {
+    background: rgb(65, 63, 63);
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px; 
+}
+
+.submit, .cancel {
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.submit {
+    color: black;
+    background: white;
+}
+
+.submit:hover {
+    background: rgb(208, 197, 197);
+}
+
+.cancel {
+    color: black;
+    background: white;
+}
+
+.cancel:hover {
+    background: rgb(208, 197, 197); 
+}
+
+.remember_terms {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: small;
+    margin-top: 15px; 
+}
+
+.remember_terms .remember {
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+.terms label a {
+    text-decoration: none;
+    color: white;
+}
+
+.terms label a:hover {
+    text-decoration: underline;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 40px; 
+    height: auto;
+}
+
+.social {
+    text-align: end;
+    color: white;
+    font-size: 12px;
+}
